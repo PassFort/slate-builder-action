@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+cp -rf $DOC_BASE_FOLDER/images/ /usr/src/app/source/images
 cp $DOC_BASE_FOLDER/index.html.md /usr/src/app/source
 
 cd /usr/src/app/source
